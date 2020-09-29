@@ -1,0 +1,26 @@
+.app{
+  background-color:#2E4053;
+  color: #fff;
+  width: 100%;
+}
+
+.title{
+  padding-left: 2rem;
+  font-size: 1.5rem;
+}
+
+
+@media(max-width:420px){
+  
+  .title{
+    padding-left: .5rem;
+    font-size: .8rem;
+  }
+}
+
+@media(max-width:720px){
+  .title{
+    padding-left: .5rem;
+    font-size: 1.2rem;
+  }
+}
